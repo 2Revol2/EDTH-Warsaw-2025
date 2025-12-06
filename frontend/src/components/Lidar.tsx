@@ -150,8 +150,8 @@ export default function Lidar() {
 
   return (
     <div className="w-full h-full bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950 relative">
-      <div className="absolute top-4 left-4 z-10 bg-slate-900/80 backdrop-blur-sm px-4 py-2 rounded-lg border border-cyan-500/30">
-        <div className="text-cyan-400 font-mono text-xs uppercase tracking-widest">LIDAR Scanner</div>
+      <div className="absolute top-2 left-2 sm:top-4 sm:left-4 z-10 bg-slate-900/80 backdrop-blur-sm px-2 sm:px-4 py-1 sm:py-2 rounded-md sm:rounded-lg border border-cyan-500/30">
+        <div className="text-cyan-400 font-mono text-[10px] sm:text-xs uppercase tracking-widest">LIDAR Scanner</div>
       </div>
       <Canvas camera={{ position: [0, 8, 12], fov: 60 }}>
         <color attach="background" args={["#020617"]} />
